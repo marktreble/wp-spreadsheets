@@ -34,7 +34,7 @@ import { PanelBody, TextControl, Disabled } from '@wordpress/components';
  *
  * @see https://www.npmjs.com/package/@wordpress/scripts#using-css
  */
-import './editor.scss';
+//import './editor.scss';
 
 import ServerSideRender from '@wordpress/server-side-render';
 import metadata from './block.json';

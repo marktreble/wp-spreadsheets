@@ -1,8 +1,8 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
-  "name": "create-block/spreadsheets",
-  "version": "0.1.0",
+  "name": "gbsra/spreadsheets",
+  "version": "0.2.0",
   "title": "Spreadsheets",
   "category": "widgets",
   "description": "Display archive of links to spreadsheets",

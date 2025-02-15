@@ -22,5 +22,9 @@ Display archive of links to spreadsheets
 
 ### == Changelog ==
 
-= 0.1.0 =
-* Release
+0.1.0
+Initial Release
+
+0.2.0
+Ordering of documents based on filename
+

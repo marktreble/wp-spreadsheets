@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Spreadsheets
  * Description:       Display archive of links to spreadsheets
- * Version:           0.1.0
+ * Version:           0.2.0
  * Requires at least: 6.7
  * Requires PHP:      7.4
  * Author:            Mark Treble
@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
-function create_block_spreadsheets_block_init() {
+function gbsra_spreadsheets_block_init() {
 	register_block_type( __DIR__ . '/build/spreadsheets' );
 }
-add_action( 'init', 'create_block_spreadsheets_block_init' );
+add_action( 'init', 'gbsra_spreadsheets_block_init' );
